@@ -1,0 +1,77 @@
+# # lists syntax
+# numbers = [1, 2, 3, 4]
+
+# # print(numbers)
+
+# fruits = ["apple", "cherries", "bananas"]
+# # print(fruits)
+
+# mixed = ["hello", 5, True, None]
+
+# # print(mixed)
+
+# # access items in a list
+
+# # print(numbers[-1])
+
+# fruits[0] = "grape"
+
+# print(fruits)
+
+# adding items
+
+# numbers.append(6)
+
+# print(numbers)
+
+# print(mixed)
+
+# print(mixed.insert(1, False))
+
+# print(mixed)
+
+# # removing items
+
+# fruits.remove("bananas")
+
+# print(fruits)
+
+# fruits.pop(0)
+
+# print(fruits)
+
+
+# fav_colors = ["yellow", "orange", "blue", "pink", "purple", "red"]
+
+# print(fav_colors[1])
+# print(fav_colors[-1])
+
+# fav_colors.append("indigo")
+
+# print(fav_colors)
+
+# for color in range(len(fav_colors)):
+#     print(color)
+
+# nums = [1 , 2, 3, 4, 5]
+# sub_nums = nums[1:4]
+# print(sub_nums)
+
+# nums = [10, 20, 30, 40, 50, 60]
+# print(nums[1:4])
+# print(nums[:])
+
+# nums = [20, 40, 60, 80, 100, 120]
+# print(nums[1::2])
+
+# pet = {"name": "Luna"}
+
+
+# Practice Questions 9/30/26
+
+list1 = list(range(0,11))
+print(list1)
+print(list1[0:5])
+print(list1[::2])
+print(list1[::-1])
+
