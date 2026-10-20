@@ -90,4 +90,4 @@ print(declination(targets))
 
 # 6) What is your favorite constellation?
 
-print("My fav constellation is Cygnus")
+# my fav is cygnus

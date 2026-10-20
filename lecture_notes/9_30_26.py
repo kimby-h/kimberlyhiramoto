@@ -24,8 +24,6 @@ stars_data = {
 for name in stars_data["name"]:
     print(name)
 
-for stars in stars_data:
-    if "distance_ly" < 20:
 
 def count_close_stars(data):
     count = 0

@@ -67,11 +67,5 @@
 # pet = {"name": "Luna"}
 
 
-# Practice Questions 9/30/26
 
-list1 = list(range(0,11))
-print(list1)
-print(list1[0:5])
-print(list1[::2])
-print(list1[::-1])
 

@@ -99,42 +99,42 @@ name = "Kimberly"
 
 
 
-text = "apple and carrot"
+# text = "apple and carrot"
 
-def counting_vowels_and_consonents(text):
-    vowels = 0
-    consonants = 0
-    for characters in text:
-        if characters.isalpha():
-            if characters in "aAeEiIoOuU":
-                vowels += 1
-            else:
-                consonants += 1
-    return (vowels, consonants)
+# def counting_vowels_and_consonents(text):
+#     vowels = 0
+#     consonants = 0
+#     for characters in text:
+#         if characters.isalpha():
+#             if characters in "aAeEiIoOuU":
+#                 vowels += 1
+#             else:
+#                 consonants += 1
+#     return (vowels, consonants)
 
-print(counting_vowels_and_consonents(text))
+# print(counting_vowels_and_consonents(text))
 
-# paragraph = "hey it's me it's verity"
-def average_vowels_and_consonants(paragraph):
-    sentence = paragraph.split(".") # will separate the lines
-    sent_length = len(sentence)
-    sentence_vowels = 0
-    sentence_consonants = 0
-    for sentence in paragraph:
-        vowels, consonants = counting_vowels_and_consonents(sentence) # connects to previous function
-        sentence_vowels += vowels # adds the vowels to the output
-        sentence_consonants += consonants # adds the consonants to the output
-    average_vowels = sentence_vowels / sent_length
-    average_consonants = sentence_consonants / sent_length
-    return (f"The number of sentences in this paragraph is {sent_length}. The average vowels per sentence is {average_vowels}. The average consonants per sentence is {average_consonants}.")
-    # return (sent_length, average_vowels, average_consonants)
-paragraph = (
-    "Fall in love with some activity, and do it! "
-    "Nobody ever figures out what life is all about, and it doesn't matter. "
-    "Explore the world. "
-    "Nearly everything is really interesting if you go into it deeply enough. "
-    "Work as hard and as much as you want to on the things you like to do the best. "
-    "Don't think about what you want to be, but what you want to do. "
-    "Keep up some kind of a minimum with other things so that society doesn't stop you from doing anything at all."
-)
-print(average_vowels_and_consonants(paragraph))
+# # paragraph = "hey it's me it's verity"
+# def average_vowels_and_consonants(paragraph):
+#     sentence = paragraph.split(".") # will separate the lines
+#     sent_length = len(sentence)
+#     sentence_vowels = 0
+#     sentence_consonants = 0
+#     for sentence in paragraph:
+#         vowels, consonants = counting_vowels_and_consonents(sentence) # connects to previous function
+#         sentence_vowels += vowels # adds the vowels to the output
+#         sentence_consonants += consonants # adds the consonants to the output
+#     average_vowels = sentence_vowels / sent_length
+#     average_consonants = sentence_consonants / sent_length
+#     return (f"The number of sentences in this paragraph is {sent_length}. The average vowels per sentence is {average_vowels}. The average consonants per sentence is {average_consonants}.")
+#     # return (sent_length, average_vowels, average_consonants)
+# paragraph = (
+#     "Fall in love with some activity, and do it! "
+#     "Nobody ever figures out what life is all about, and it doesn't matter. "
+#     "Explore the world. "
+#     "Nearly everything is really interesting if you go into it deeply enough. "
+#     "Work as hard and as much as you want to on the things you like to do the best. "
+#     "Don't think about what you want to be, but what you want to do. "
+#     "Keep up some kind of a minimum with other things so that society doesn't stop you from doing anything at all."
+# )
+# print(average_vowels_and_consonants(paragraph))

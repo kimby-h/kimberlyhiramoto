@@ -17,14 +17,13 @@ print(uppercase)
 
 print(foods[0::5])
 
-def is_potato(foods):
-    for food in foods:
-        if food == "potato":
-            print("A potato!")
-        else:
-            print("No potato!")
-        break
-print(is_potato(foods))
+for food in foods:
+    if food == "potato":
+        print("A potato!")
+    else:
+        print("No potato!")
+    break
+
 
 '''
 I encountered this error: 
